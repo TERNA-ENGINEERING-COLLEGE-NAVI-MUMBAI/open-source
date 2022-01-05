@@ -1,0 +1,48 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.branch {
+  margin-top: 75px;
+}
+.branch-btn {
+  display: block;
+  font-size: large;
+  width: 150px;
+  padding: 8px;
+  margin-top: 10px;
+  background-color: #00bfff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-family: Arial;
+  margin-right: 5px;
+}
+.branch-btn:hover {
+  background-color: #328cd8;
+}
+.divisions {
+  text-align: center;
+  display: inline-flex;
+}
+.division {
+  font-size: x-large;
+  padding: 40px;
+}
+.list {
+  display: block;
+  text-align: center;
+}
+.contributor {
+  display: block;
+  padding: 6px;
+  color: #328cd8;
+  text-decoration: none;
+}
+.contributor:hover {
+  text-decoration: underline;
+}
