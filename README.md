@@ -7,6 +7,10 @@
   <img src="https://img.shields.io/github/issues-search/TERNA-ENGINEERING-COLLEGE-NAVI-MUMBAI/open-source?label=merged%20PRs&query=is%3Apr+is%3Aclosed+is%3Amerged&color=green" alt="Merged Pull Requests" />
 </div>
 
+<div align="center">
+  Website link: <a href="https://terna-engineering-college-navi-mumbai.github.io/open-source/">https://terna-engineering-college-navi-mumbai.github.io/open-source/</a>
+</div>
+
 ## Git installation
 
 Install Git from this link:- <a href="https://git-scm.com/downloads" target="_blank">https://git-scm.com/downloads</a>
