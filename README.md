@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-  🌐 Website link: <a href="https://terna-engineering-college-navi-mumbai.github.io/open-source/">https://terna-engineering-college-navi-mumbai.github.io/open-source/</a>
+  🌐 Website link: <a href="https://terna-engineering-college-navi-mumbai.github.io/open-source/">https://terna-engineering-college-navi-mumbai.github.io/open-source/</a><br>
   🖥 Presentation link: https://drive.google.com/file/d/1PB0TN9xqt0HvJ9f5IcmEVnP2A4WjNoCJ/view?usp=sharing
 </div>
 
