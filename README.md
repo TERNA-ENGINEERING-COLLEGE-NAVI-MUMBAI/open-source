@@ -34,6 +34,7 @@ git config --global user.email "your email"
 Before you follow all these STEPS, make sure you `fork` the repository in your account.
 
 1. Clone the repository using HTTPS or SSH (If you don't have 2FA enabled).
+
 This will basically download the git initialized repository on your computer.
 
 ```bash
@@ -47,6 +48,7 @@ git clone https://<GitHubToken>@github.com/<username>/<RepositoryName>.git
 ```
 
 2. Create a new branch.
+
 Creating a new branch allows you to isolate your changes from the master (main) branch. If your changes goes well, you always have the option to merge your changes into the master branch. If things don't go so well you can always discard the branch or keep it within your local repository.
 
 ```bash
@@ -54,6 +56,7 @@ git branch YourBranchName
 ```
 
 3. Shift to that branch from master (`main`) branch.
+
 By default you're on main branch. So to switch from main, use the following command.
 
 ```bash
@@ -75,6 +78,7 @@ git commit -m 'Add my contribution'
 ```
 
 6. Shift to the master (`main`) branch.
+
 Now, switch back to main branch to merge all the changes.
 
 ```bash
@@ -88,6 +92,7 @@ git merge YourBranchName
 ```
 
 8. Get ready to push from your local machine.
+
 You cannot directly push the changes from your local machine, to do that we have to create a new connection record to a remote repository. After adding a remote, you'll be able to use as a convenient shortcut for in other Git commands.
 
 If you don't have 2FA enabled, then use the normal HTTPS or SSH link.
@@ -102,6 +107,7 @@ git remote add <message> https://<GitHubToken>@github.com/<username>/<Repository
 ```
 
 9. Push everything on your forked repository.
+
 This will push all the changes you've made to the master (`main`) branch of your forked repository.
 
 ```bash
