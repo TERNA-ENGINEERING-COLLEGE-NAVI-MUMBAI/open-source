@@ -33,10 +33,11 @@ git config --global user.email "your email"
 
 Before you follow all these STEPS, make sure you `fork` the repository in your account.
 
-### 1. Clone the repository using HTTPS or SSH (If you don't have 2FA enabled).
+### 1. Clone the repository.
 
 This will basically download the git initialized repository on your computer.
 
+If you don't have 2FA enabled, then use the normal HTTPS or SSH link.
 ```bash
 git clone https://github.com/TERNA-ENGINEERING-COLLEGE-NAVI-MUMBAI/open-source.git
 ```
