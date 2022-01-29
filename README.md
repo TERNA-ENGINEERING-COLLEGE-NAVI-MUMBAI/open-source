@@ -33,7 +33,7 @@ git config --global user.email "your email"
 
 Before you follow all these STEPS, make sure you `fork` the repository in your account.
 
-1. Clone the repository using HTTPS or SSH (If you don't have 2FA enabled).
+### 1. Clone the repository using HTTPS or SSH (If you don't have 2FA enabled).
 
 This will basically download the git initialized repository on your computer.
 
@@ -47,7 +47,7 @@ For that, use the following command instead of the normal URL command.
 git clone https://<GitHubToken>@github.com/<username>/<RepositoryName>.git
 ```
 
-2. Create a new branch.
+### 2. Create a new branch.
 
 Creating a new branch allows you to isolate your changes from the master (main) branch. If your changes goes well, you always have the option to merge your changes into the master branch. If things don't go so well you can always discard the branch or keep it within your local repository.
 
@@ -55,7 +55,7 @@ Creating a new branch allows you to isolate your changes from the master (main) 
 git branch YourBranchName
 ```
 
-3. Shift to that branch from master (`main`) branch.
+### 3. Shift to that branch from master (`main`) branch.
 
 By default you're on main branch. So to switch from main, use the following command.
 
@@ -65,19 +65,19 @@ git checkout YourBranchName
 
 Add `FirstName_LastName_GradYear` in your HTML branch page under the appropriate division.
 
-4. Add all the changes you've made.
+### 4. Add all the changes you've made.
 
 ```bash
 git add .
 ```
 
-5. Make a commit message of the changes you've made. Learn more about conventional commits [here](https://www.conventionalcommits.org/en/v1.0.0/).
+### 5. Make a commit message of the changes you've made. Learn more about conventional commits [here](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ```bash
 git commit -m 'Add my contribution'
 ```
 
-6. Shift to the master (`main`) branch.
+### 6. Shift to the master (`main`) branch.
 
 Now, switch back to main branch to merge all the changes.
 
@@ -85,13 +85,13 @@ Now, switch back to main branch to merge all the changes.
 git checkout main
 ```
 
-7. Merge everything from your branch to the master (`main`) branch.
+### 7. Merge everything from your branch to the master (`main`) branch.
 
 ```bash
 git merge YourBranchName
 ```
 
-8. Get ready to push from your local machine.
+### 8. Get ready to push from your local machine.
 
 You cannot directly push the changes from your local machine, to do that we have to create a new connection record to a remote repository. After adding a remote, you'll be able to use as a convenient shortcut for in other Git commands.
 
@@ -106,7 +106,7 @@ For that, use the following command instead of the normal URL command.
 git remote add <message> https://<GitHubToken>@github.com/<username>/<RepositoryName>.git
 ```
 
-9. Push everything on your forked repository.
+### 9. Push everything on your forked repository.
 
 This will push all the changes you've made to the master (`main`) branch of your forked repository.
 
