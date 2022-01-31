@@ -64,7 +64,7 @@ By default you're on main branch. So to switch from main, use the following comm
 git checkout YourBranchName
 ```
 
-Add `FirstName_LastName_GradYear` in your HTML branch page under the appropriate division.
+Add your `GitHub profile link` and your `FirstName_LastName_GradYear` in the HTML branch page under the appropriate division.
 
 ### 4. Add all the changes you've made.
 
